@@ -383,3 +383,30 @@ input {
     font-size: 15px;
     color: red;
 }
+.t1:hover,.t2:hover{
+    color: red;
+    cursor:pointer;
+}
+.change:hover{
+    color: red;
+    cursor:pointer;
+}
+.change{
+    text-decoration: none;
+    color: #ffbd39;
+}
+.click{
+    text-align: center;
+    color: #fdab05;
+    font-size: 23px;
+    margin-top: 28px;
+
+}
+.t4:hover{
+    color: red;
+    cursor:pointer;
+}
+.t6:hover{
+    color: #fdab05;
+    cursor:pointer;
+}
