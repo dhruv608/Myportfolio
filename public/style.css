@@ -12,6 +12,76 @@
     padding-top: 20px;
     background-color: black;
     padding-bottom: 15px;
+    width: 100%;
+    height: 20%;
+}
+
+@media (min-width : 350px) and (max-width:400px) {
+    .top1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top1 h2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right: -90px;
+    }
+
+    .opps {
+        display: flex;
+        justify-content: end;
+        margin-right: 15px;
+        margin-top: 5px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        margin-right: 80px;
+        width: 200px;
+
+    }
+
+    .txt1{
+        width: 350px;
+        margin-top: -180px;
+        margin-left: -30px;
+        margin-bottom: -300px;
+       
+    }
+
+    .l1 .t1 {
+        font-size: 30px;
+        margin-top: -300px;
+    }
+
+    .l1 .l9 {
+        font-size: 38px;
+    }
+
+    .t6 {
+        width: 200px;
+        /* margin-top: -280px; */
+    }
+
+    .l1 h2 {
+        margin-top: -30px;
+        width: 250px;
+    }
+
+    .l {
+        /* margin-bottom: -220px; */
+        width: 100px
+    }
+    .pic img {
+        width: 100%;
+        margin-left: -8px;
+        margin-bottom: 220px;
+    }
+  
 }
 
 .top1 h2 {
@@ -50,6 +120,7 @@ main {
     display: flex;
     justify-content: space-between;
     background-image: url(./images/backport.jpeg);
+    width: 100vw;
 }
 
 .txt {
@@ -155,6 +226,10 @@ main {
     margin-left: 15px;
 }
 
+.social {
+    width: 100%;
+}
+
 .social h2 {
     font-family: cursive;
     margin-top: 40px;
@@ -207,7 +282,8 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     height: 110vh;
-    width: 98.82vw;
+    /* width: 98.82vw; */
+    width: 100%;
 }
 
 .part3 h2 {
@@ -249,6 +325,7 @@ main {
 .part4 {
     background-color: black;
     height: 100vh;
+    width: 100%;
 }
 
 .part4 h2 {
@@ -294,6 +371,7 @@ main {
 .part5 {
     background-color: black;
     height: 100vh;
+    width: 100%;
 
 }
 
@@ -383,30 +461,37 @@ input {
     font-size: 15px;
     color: red;
 }
-.t1:hover,.t2:hover{
+
+.t1:hover,
+.t2:hover {
     color: red;
-    cursor:pointer;
+    cursor: pointer;
 }
-.change:hover{
+
+.change:hover {
     color: red;
-    cursor:pointer;
+    cursor: pointer;
 }
-.change{
+
+.change {
     text-decoration: none;
     color: #ffbd39;
 }
-.click{
+
+.click {
     text-align: center;
     color: #fdab05;
     font-size: 23px;
     margin-top: 28px;
 
 }
-.t4:hover{
+
+.t4:hover {
     color: red;
-    cursor:pointer;
+    cursor: pointer;
 }
-.t6:hover{
+
+.t6:hover {
     color: #fdab05;
-    cursor:pointer;
+    cursor: pointer;
 }
