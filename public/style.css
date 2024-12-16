@@ -32,8 +32,15 @@
     .opps {
         display: flex;
         justify-content: end;
-        margin-right: 15px;
+        margin-right: 20px;
         margin-top: 5px;
+        
+        
+    }
+    .opps a{
+        margin-left: -9px;
+        font-size: 15px !important;
+        
     }
 
     main {
