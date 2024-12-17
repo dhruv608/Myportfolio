@@ -20,9 +20,14 @@
         display: flex;
         flex-direction: column;
     }
+    .r1{
+        width: 200px;
+        margin-left: 80px !important;
+    }
     body{
         background-color: black;
         overflow-x: hidden;
+        width: 100vw;
     }
 
     .top1 h2 {
@@ -58,9 +63,12 @@
     .txt1{
         width: 350px;
         margin-top: -180px;
-        margin-left: -30px;
+        margin-left: -80px !important;
         margin-bottom: -300px;
        
+    }
+    .l1{
+        width: 300px !important;
     }
 
     .l1 .t1 {
