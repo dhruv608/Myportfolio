@@ -50,7 +50,9 @@
         font-size: 15px !important;
         
     }
-
+ .t6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
     main {
         display: flex;
         flex-direction: column;
@@ -184,7 +186,7 @@
     margin-top: -30px;
   }
   .part5{
-    margin-top: 520px;
+    margin-top: 600px;
     width: 300px;
   }
   .c3{
