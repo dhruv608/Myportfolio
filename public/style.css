@@ -104,6 +104,9 @@
     font-size: 15px !important;
     width: 350px;
   }
+  .c5{
+    margin: 60px 0px 0px 140px !important;
+  }
   .p1{
     margin-bottom: 100px;
   }
@@ -138,10 +141,13 @@
   .pro{
     display: flex;
     flex-direction: column;
-    margin-left: -22px;
+    margin-left: -8px;
     margin-top: -15px;
     background-color: black;
     height: 1180px;
+  }
+  .pro1 img{
+    width: 320px !important;
   }
   .click{
     background-color: black;
